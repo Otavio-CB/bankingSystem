@@ -1,12 +1,11 @@
 # Sistema Bancário Simples em Python
 
-Este projeto é um sistema bancário simples desenvolvido em Python, como proposto pela plataforma DIO (Digital Innovation One). O objetivo do projeto é criar um programa que simule as operações básicas de um sistema bancário, como fazer depósitos, saques e transferências entre contas.
+Este projeto é um sistema bancário simples desenvolvido em Python, como proposto pela plataforma DIO (Digital Innovation One). O objetivo do projeto é criar um programa que simule as operações básicas de um sistema bancário, como fazer depósitos, saques, consulta de extrato e saldo.
 
 ## Funcionalidades
 
 - Depósito em conta
 - Saque de conta
-- Transferência entre contas
 - Consulta de saldo
 - Consulta de extrato
 
