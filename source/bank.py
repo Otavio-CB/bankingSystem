@@ -10,14 +10,15 @@ def main():
     accounts = []
 
     while True:
-        print('[1] Deposito')
-        print('[2] Saque')
-        print('[3] Extrato')
-        print('[4] Criar Usuário')
-        print('[5] Criar Conta')
-        print('[6] Lista de Contas')
-        print('[7] Sair')
-
+        menu = f'''
+[1] Deposito
+[2] Saque
+[3] Extrato
+[4] Criar Usuário
+[5] Criar Conta
+[6] Lista de Contas
+[7] Sair '''
+        print(menu)
         option = input('Selecione uma opção: ')
 
         if option == '1':
