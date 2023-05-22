@@ -6,8 +6,10 @@ Este projeto é um sistema bancário simples desenvolvido em Python, como propos
 
 - Depósito em conta
 - Saque de conta
-- Consulta de saldo
 - Consulta de extrato
+- Criar Usuário
+- Criar Conta
+- Lista de Contas
 
 ## Como utilizar o programa
 
@@ -16,7 +18,10 @@ Ao iniciar o programa, você terá as seguintes opções:
 - [1] Depositar
 - [2] Sacar
 - [3] Extrato
-- [4] Sair
+- [4] Criar Usuário
+- [5] Criar Conta
+- [6] Lista de Contas
+- [7] Sair
 
 ### Depositar
 
@@ -30,9 +35,21 @@ Ao selecionar a opção `[2] Sacar`, você deverá informar o valor que deseja s
 
 Ao selecionar a opção `[3] Extrato`, o programa irá exibir o extrato das movimentações realizadas, incluindo depósitos e saques, assim como o saldo atual da conta.
 
+### Criar Usuário
+
+Ao selecionar a opção `[4] Criar Usuário`, você deverá informar as informações necessárias para que seja possível criar o seu usuário, possibilitando a criação da sua conta.
+
+### Criar Conta
+
+Ao selecionar a opção `[5] Criar Conta`, você deverá fornecer seu CPF cadastrado na `[4] Criar Usuário`, e o programa irá criar sua conta.
+
+### Lista de Contas
+
+Ao selecionar a opção `[6] Lista de Contas`, o programa irá exibir todas as contas criadas.
+
 ### Sair
 
-Ao selecionar a opção `[4] Sair`, o programa será encerrado.
+Ao selecionar a opção `[7] Sair`, o programa será encerrado.
 
 
 ### Pré-requisitos
